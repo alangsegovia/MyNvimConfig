@@ -1,6 +1,9 @@
 " Set space as key Leader "
 let mapleader=" "
 
+" Use tab to jump out of closing tag
+:inoremap <expr> <Tab> search('\%#[]>)}''"]', 'n') ? '<Right>' : '<Tab>'
+
 " Stop highlighting search results
 nmap <leader>n/ :noh<CR>
 
@@ -30,3 +33,4 @@ nmap ghp <Plug>(GitGutterPreviewHunk)
 " Keep Scrool cursor centered vertical "
 :nnoremap j jzz
 :nnoremap k kzz
+
