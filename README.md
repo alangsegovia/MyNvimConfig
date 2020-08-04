@@ -4,23 +4,23 @@ Custom NeoVim config
 
 # Create Virtual Env
 Go to root of your nvim config directory
-'''sh
+```sh
 python3.8 -m venv .venv-nvim
-'''
+```
 
 Activate the virtual env
-'''sh
+```sh
 source .venv-nvim/bin/activate
-'''
+```
 
 install the requeriments
-'''sh
+```sh
 pip install -r nvim-requeriments.txt
-'''
+```
 
 
 Remember execute always after pull:
-'''sh
+```sh
 :PlugClean
 :PlugInstall
-'''
+```
