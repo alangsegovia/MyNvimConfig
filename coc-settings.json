@@ -1,0 +1,25 @@
+{
+    //    "coc.preferences.formatOnSaveFiletypes": [
+    //        "css",
+    //        "markdown",
+    //         "javascript",
+    //        "graphql",
+    //        "html",
+    //        "yaml",
+    //        "json",
+    //        "python"
+    //    ],
+    // XML settings
+    "xml.java.home": "/usr/lib/jvm/java-14-openjdk",
+    // python config
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "~/.config/nvim/.venv-nvim/bin/python",
+    "snippets.ultisnips.directories": [
+        "UltiSnips",
+        "~/.config/nvim/utils/snips"
+    ],
+    // html settings
+    "html.autoClosingTags": true,
+    "html.format.indentInnerHtml": true
+}
