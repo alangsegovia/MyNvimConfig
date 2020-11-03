@@ -11,6 +11,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'honza/vim-snippets'
 
+    " Fzf & ripgrep "
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim' 
+
     " Better Syntax Support, Linter & Intellisense Engine 
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'vim-syntastic/syntastic'

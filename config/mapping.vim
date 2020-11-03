@@ -5,10 +5,14 @@ let mapleader=" "
 nmap <leader>n/ :noh<CR>
 
 " TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
-
 " SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
+"nnoremap <TAB> :bnext<CR>
+"nnoremap <S-TAB> :bprevious<CR>
+
+
+" Tab for circular windows navigation
+nnoremap <TAB> <c-W>w
+nnoremap <S-TAB> <c-W>W
 
 " Use alt + hjkl to resize windows
 nnoremap <M-j>    :resize -2<CR>
@@ -31,3 +35,8 @@ nmap ghp <Plug>(GitGutterPreviewHunk)
 :nnoremap j jzz
 :nnoremap k kzz
 
+" Fzf && Ripgrep "
+nnoremap <silent> <C-p> :Files<CR>
+nnoremap <silent> <C-g> :GFiles<CR>
+nnoremap <silent> <C-b> :Buffers<CR>
+nnoremap <C-f> :Rg!

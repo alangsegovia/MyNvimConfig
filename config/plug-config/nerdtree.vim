@@ -3,7 +3,7 @@
 let NERDTreeQuitOnOpen=0
 nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>nn :NERDTree<CR>
-let NERDTreeMapActivateNode='<tab>'
+let NERDTreeMapActivateNode='<Leader><tab>'
 let NERDTreeShowHidden=1
 let NERDTreeNaturalSort=1
 let NERDTreeWinSize=35
