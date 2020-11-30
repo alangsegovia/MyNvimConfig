@@ -45,5 +45,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'junegunn/rainbow_parentheses.vim'
     Plug 'KabbAmine/vCoolor.vim'
 
+    " Live Reloader Browser
+    Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+
 
 call plug#end()

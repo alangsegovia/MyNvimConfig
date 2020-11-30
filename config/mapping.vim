@@ -15,10 +15,10 @@ nnoremap <TAB> <c-W>w
 nnoremap <S-TAB> <c-W>W
 
 " Use alt + hjkl to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
+nnoremap <C-Up>    :resize -2<CR>
+nnoremap <C-Down>    :resize +2<CR>
+nnoremap <C-Left>    :vertical resize -2<CR>
+nnoremap <C-Right>    :vertical resize +2<CR>
 
 " Better tabbing
 vnoremap < <gv
