@@ -34,7 +34,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'preservim/nerdcommenter'
 
     " Auto pairs for '(' '{' '['
-    Plug 'jiangmiao/auto-pairs'
+    " Plug 'jiangmiao/auto-pairs'
 
     " Status line
     Plug 'vim-airline/vim-airline'
