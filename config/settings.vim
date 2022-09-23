@@ -43,5 +43,6 @@ set t_Co=256                            " Support 256 colors
 " Options for Monokai Theme
 let g:monokai_term_italic = 1
 let g:monokai_gui_italic = 1
-colorscheme monokai
+let g:vim_monokai_tasty_italic = 1
+colorscheme vim-monokai-tasty
 

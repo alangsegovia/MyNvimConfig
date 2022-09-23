@@ -1,7 +1,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
     " Themes "
-    Plug 'crusoexia/vim-monokai'
+    " Plug 'crusoexia/vim-monokai'
+    Plug 'patstockwell/vim-monokai-tasty'
 
     " Navigation  "
     Plug 'scrooloose/nerdtree'

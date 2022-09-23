@@ -10,7 +10,6 @@
     //        "python"
     //    ],
     // XML settings
-    "xml.java.home": "/usr/lib/jvm/java-14-openjdk",
     // python config
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
