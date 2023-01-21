@@ -174,3 +174,4 @@ hi htmlH3 guifg=White
 hi htmlH4 guifg=White
 hi htmlH5 guifg=White
 hi htmlH6 guifg=White
+hi Normal guibg=#161B22
