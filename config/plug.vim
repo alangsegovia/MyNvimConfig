@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'vim-syntastic/syntastic'
     Plug 'sheerun/vim-polyglot'
+    Plug 'lukas-reineke/indent-blankline.nvim'
 
     " Git Support "
     "Plug 'airblade/vim-gitgutter'

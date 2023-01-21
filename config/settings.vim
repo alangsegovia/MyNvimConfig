@@ -46,3 +46,9 @@ let g:monokai_gui_italic = 1
 let g:vim_monokai_tasty_italic = 1
 colorscheme vim-monokai-tasty
 
+" Indent Blanklines
+" highlight IndentBlanklineIndent1 guibg=#000000 blend=nocombine
+" highlight IndentBlanklineIndent2 guibg=#161B22 blend=nocombine
+
+" let g:indent_blankline_char_highlight_list = ["IndentBlanklineIndent1", "IndentBlanklineIndent2"]
+" let g:indent_blankline_show_trailing_blankline_indent = v:false
